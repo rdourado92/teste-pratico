@@ -1,0 +1,305 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@tester.com",
+      "senha": "123456",
+      "pontuacao": 70
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "email": "pedro@abc.com",
+      "senha": "abc123",
+      "pontuacao": 5
+    },
+    {
+      "id": 3,
+      "nome": "Maria",
+      "email": "maria@uol.com",
+      "senha": "111",
+      "pontuacao": 35
+    }
+  ],
+  "pedido": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "tamanho_id": 3,
+      "massa_id": 2,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 3,
+      "sugestao": false
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 5,
+      "massa_id": 4,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 4,
+      "sugestao": true,
+      "id": 2
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 3,
+      "massa_id": 1,
+      "tipo_id": 1,
+      "sabor_id": 3,
+      "borda_id": 4,
+      "sugestao": true,
+      "id": 3
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 2,
+      "massa_id": 2,
+      "tipo_id": 2,
+      "sabor_id": 1,
+      "borda_id": 6,
+      "sugestao": true,
+      "id": 4
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 1,
+      "massa_id": 3,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 5,
+      "sugestao": true,
+      "id": 5
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 5,
+      "massa_id": 3,
+      "tipo_id": 2,
+      "sabor_id": 1,
+      "borda_id": 1,
+      "sugestao": true,
+      "id": 6
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 4,
+      "massa_id": 2,
+      "tipo_id": 2,
+      "sabor_id": 1,
+      "borda_id": 2,
+      "sugestao": false,
+      "id": 7
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 1,
+      "massa_id": 2,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 4,
+      "sugestao": true,
+      "id": 8
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 2,
+      "massa_id": 1,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 3,
+      "sugestao": true,
+      "id": 9
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 4,
+      "massa_id": 1,
+      "tipo_id": 2,
+      "sabor_id": 2,
+      "borda_id": 6,
+      "sugestao": true,
+      "id": 10
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 2,
+      "massa_id": 1,
+      "tipo_id": 2,
+      "sabor_id": 2,
+      "borda_id": 1,
+      "sugestao": true,
+      "id": 11
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 2,
+      "massa_id": 4,
+      "tipo_id": 2,
+      "sabor_id": 1,
+      "borda_id": 6,
+      "sugestao": true,
+      "id": 12
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 5,
+      "massa_id": 1,
+      "tipo_id": 2,
+      "sabor_id": 2,
+      "borda_id": 2,
+      "sugestao": true,
+      "id": 13
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 1,
+      "massa_id": 1,
+      "tipo_id": 1,
+      "sabor_id": 3,
+      "borda_id": 5,
+      "sugestao": true,
+      "id": 14
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 5,
+      "massa_id": 1,
+      "tipo_id": 1,
+      "sabor_id": 4,
+      "borda_id": 5,
+      "sugestao": true,
+      "id": 15
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 3,
+      "massa_id": 4,
+      "tipo_id": 2,
+      "sabor_id": 2,
+      "borda_id": 2,
+      "sugestao": true,
+      "id": 16
+    },
+    {
+      "user_id": 1,
+      "tamanho_id": 2,
+      "massa_id": 3,
+      "tipo_id": 2,
+      "sabor_id": 2,
+      "borda_id": 6,
+      "sugestao": true,
+      "id": 17
+    }
+  ],
+  "tamanho": [
+    {
+      "id": 1,
+      "nome": "Brotinho (Individual)"
+    },
+    {
+      "id": 2,
+      "nome": "Pequeno (4 pedaços)"
+    },
+    {
+      "id": 3,
+      "nome": "Médio (6 pedaços)"
+    },
+    {
+      "id": 4,
+      "nome": "Grande (8 pedaços)"
+    },
+    {
+      "id": 5,
+      "nome": "Familia (12 fatias)"
+    }
+  ],
+  "massa": [
+    {
+      "id": 1,
+      "nome": "Pan"
+    },
+    {
+      "id": 2,
+      "nome": "Ultra Fina"
+    },
+    {
+      "id": 3,
+      "nome": "Integral"
+    },
+    {
+      "id": 4,
+      "nome": "Normal"
+    }
+  ],
+  "tipo": [
+    {
+      "id": 1,
+      "nome": "Doce"
+    },
+    {
+      "id": 2,
+      "nome": "Salgada"
+    }
+  ],
+  "sabor": [
+    {
+      "id": 1,
+      "nome": "4 queijos",
+      "ingredientes": "Mussarela, Provolone, Cheddar, Prato",
+      "id_tipo": 2
+    },
+    {
+      "id": 2,
+      "nome": "Bacon",
+      "ingredientes": "Mussarela, Bacon, Tomate",
+      "id_tipo": 2
+    },
+    {
+      "id": 3,
+      "nome": "Brigadeiro",
+      "ingredientes": "Chocolate, Granulado",
+      "id_tipo": 1
+    },
+    {
+      "id": 4,
+      "nome": "Doce de leite",
+      "ingredientes": "Doce de leite, Açucar, Canela",
+      "id_tipo": 1
+    }
+  ],
+  "borda": [
+    {
+      "id": 1,
+      "nome": "Catupiry",
+      "id_tipo": 2
+    },
+    {
+      "id": 2,
+      "nome": "Cheddar",
+      "id_tipo": 2
+    },
+    {
+      "id": 3,
+      "nome": "Chocolate",
+      "id_tipo": 1
+    },
+    {
+      "id": 4,
+      "nome": "Doce de Leite",
+      "id_tipo": 1
+    },
+    {
+      "id": 5,
+      "nome": "Sem Recheio",
+      "id_tipo": 1
+    },
+    {
+      "id": 6,
+      "nome": "Sem Recheio",
+      "id_tipo": 2
+    }
+  ]
+}
